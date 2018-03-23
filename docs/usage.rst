@@ -4,4 +4,6 @@ Usage
 
 To use SillySort in a project::
 
-    import sillysort
+    from sillysort.sillysort import sillysort
+	sillysort(insert_list_to_be_sillynezided)
+	
