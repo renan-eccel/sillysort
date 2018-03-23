@@ -26,7 +26,10 @@ Sort things in a silly way.
 Features
 --------
 
-* TODO
+* When times of despair and grief round your table, and you need to get things
+ordered in a manner that no one can, this incredible package can help you. Featuring:
+* silly_sort: capable of sillyning things to the higher level possible to see
+* Sillynator: Under construction
 
 Credits
 -------
