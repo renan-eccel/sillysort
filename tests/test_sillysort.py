@@ -36,3 +36,18 @@ def test_command_line_interface():
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
     assert '--help  Show this message and exit.' in help_result.output
+
+
+def test_Silly_sort(capsys):
+    """We use the capsys argument to capture printing to stdout."""
+    # The silly_sort function sort a list, but returns nothing.
+    assert sillysort.silly_sort([1,2,3,4]) == None
+
+    # Capture the result of the sillysort.silly_sort function call.
+    captured = capsys.readouterr()
+
+    # If we check captured, we can see that the the silly string has been planted.
+    assert "Silly!" in captured.out
+    assert "Silly!" in captured.out   
+    assert "Silly!" in captured.out
+    assert "Silly!" in captured.out
